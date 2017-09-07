@@ -19,7 +19,7 @@ app.get('/',function(req,res){
     console.log('Hello World');
     var appenv= cfenv.getAppEnv();
     console.log(appenv);
-    console.log(appenv.getServiceCreds("Tone Analyzer-WatsonDemo"));
+    console.log(appenv.getServiceCreds("toneAnalyzer_horaciodemo"));
     res.send('Hello World');
 });
 app.get('/ui',function(req,res){

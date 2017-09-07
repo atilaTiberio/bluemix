@@ -3,7 +3,7 @@ var ToneAnalyzerV3 = require('watson-developer-cloud/tone-analyzer/v3');
 var cfenv = require('cfenv');
 var _ = require('lodash');
 var appenv= cfenv.getAppEnv();
-var creds = appenv.getServiceCreds("Tone Analyzer-WatsonDemo");
+var creds = appenv.getServiceCreds("toneAnalyzer_horaciodemo");
 
 var watsonAPI = (function(){
   var tone_analyzer = new ToneAnalyzerV3({
