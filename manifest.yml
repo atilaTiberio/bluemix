@@ -1,11 +1,11 @@
 ---
 applications:
-- disk_quota: 1024M
+- disk_quota: 512M
   buildpack: nodejs_buildpack
-  host: helloNodeHJGM
+  host: helloNodeLachito
   name: helloWatsonToneDemo
   command: node app.js
   path: .
   domain: mybluemix.net
   instances: 1
-  memory: 1024M
+  memory: 512M
